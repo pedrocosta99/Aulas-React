@@ -1,0 +1,21 @@
+1
+>>> npm create vite@latest
+For new front project on chosen framework
+
+2
+Create class component
+
+3
+Add props
+
+4
+Create functional component (best practice)
+
+5
+Add hooks
+
+6
+Exercises freeCodeCamp
+
+7
+Async Promise / Fetch
