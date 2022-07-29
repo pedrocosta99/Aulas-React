@@ -1,6 +1,11 @@
+>>> gh repo create
+
 1
 >>> npm create vite@latest
 For new front project on chosen framework
+>>> cd project-folder
+>>> npm install
+>>> npm run dev
 
 2
 Create class component
