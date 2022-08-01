@@ -1,19 +1,17 @@
-import ShoppingList from "./components/ShoppingList";
-import ShoppingList2 from "./components/ShoppingList2";
-
+import Message from "./components/Message";
+import MessageHook from "./components/MessageHook";
+import ControlledForm from "./components/ControlledForm"
 
 
 function App() {
 
   return (
     <div className="App">
-      HELLO WORLD
+      <Message user="Pedro"/>
+      <MessageHook user="Pessoa"/>
 
-      <ShoppingList name="Pedro"/>
-      <ShoppingList name="Erica"/>
-      <ShoppingList name="Bru"/>
+      <ControlledForm/>
 
-      <ShoppingList2/>
     </div>
   )
 }
